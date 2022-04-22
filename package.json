@@ -1,0 +1,17 @@
+{
+  "name": "aws-deployment-prep",
+  "version": "1.0.0",
+  "description": "Preparation steps to perform deployment in AWS",
+  "main": "index.js",
+  "scripts": {
+    "prep": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1119.0",
+    "dotenv": "^8.2.0",
+    "yargs": "^17.4.1"
+  }
+}
